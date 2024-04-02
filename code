@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+
+int bal(){
+	
+	int fig;
+	
+	cout<<"your balance is"<<endl;
+}
+
+int with(){
+	
+	int b;
+	
+	cout<<"you have requested to withdraw your funds"<<endl;
+	cout<<"please enter the ammount you wish to withdraw"<<endl;
+	
+	
+}
+
+int dep(){
+	
+	int b;
+	
+	cout<<"you have requested to deposit more funds"<<endl;
+	cout<<"please enter the ammount you wish to  deposit  "<<endl;
+	
+	
+}
+	
+
+int main() {
+	
+	int choice;
+	
+	cout<<"please select one of the following options"<<endl;
+	cout<<"1.check balance"<<endl;
+	cout<<"2.withdraw funds"<<endl;
+	cout<<"3.deposit money"<<endl;
+	cin>>choice;
+	
+	if(choice==1){
+		cout<<bal();
+	}
+	
+	if(choice==2){
+		cout<<with();
+	}
+	
+	if(choice==3){
+		cout<<dep();
+	}
+	return 0;
+}
