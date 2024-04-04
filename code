@@ -1,9 +1,20 @@
 #include <iostream>
 using namespace std;
 
+struct banker{
+	int age;
+	char name[100];
+	char surname[100];
+	
+}a[1];
+
+
+
 int bal(){
 	
 	int fig;
+	
+		
 	
 	cout<<"your balance is"<<endl;
 }
@@ -37,6 +48,7 @@ int main() {
 	cout<<"1.check balance"<<endl;
 	cout<<"2.withdraw funds"<<endl;
 	cout<<"3.deposit money"<<endl;
+	cout<<"4.register as a new client"<<endl;
 	cin>>choice;
 	
 	if(choice==1){
@@ -50,5 +62,23 @@ int main() {
 	if(choice==3){
 		cout<<dep();
 	}
+	
+	if(choice==4){
+		for(int i=1;i<=1;i++){
+			cout<<"client should enter name"<<endl;
+			cin>>a[i].name;
+			cout<<"client should enter surname"<<endl;
+			cin>>a[i].surname;
+			cout<<"client should enter his age"<<endl;
+			cin>>a[i].age;
+			cout<<"thank you for the details you have provided we will be in touch soon "<<endl;
+			
+		}
+	}
+	
+	
+	
+	
+	
 	return 0;
 }
